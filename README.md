@@ -1,4 +1,6 @@
-#csc420 Project 3 Fashion Segmentation
+### CSC420 Project 3 Fashion Segmentation
+
+### Introduction
 
 This is for Project 3 for the CSC420 class: http://www.cs.utoronto.ca/~fidler/teaching/2015/CSC420.html
 
@@ -14,6 +16,8 @@ Explanation of the data:
 
 - data/fashion_clothes/*/*.jpg  train and val images
 - data/fashion_clothes/*/*_clothes.png  contain image labeling for 6 clothing types and background. See labels.txt for the label information.
+
+The models we used is [Unet], [DeepLab-V3] and [DeepLab-V3-Plus](https://arxiv.org/pdf/1802.02611) with Resnet Backbone.
 
 
 ### Dependency:
