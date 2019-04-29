@@ -22,7 +22,7 @@ The models we used is [Unet], [DeepLab-V3] and [DeepLab-V3-Plus](https://arxiv.o
 
 ### Dependency:
 Environment: Python 3.6, Pytorch 1.0.1, CUDA 9.0, GTX 1060 6GB.
-
+```Shell
 conda install numpy
 conda install tqdm
 conda install pytorch torchvision -c pytorch
@@ -31,8 +31,10 @@ conda install -c conda-forge tensorboardx
 conda install scipy
 conda install matplotlib
 conda install -c conda-forge scikit-image
+```
 
 ### Usage of predict.py:
+```Shell
 usage: predict.py [-h] [--model [deeplabv3+, deeplabv3, unet]] --task
 [person, fashion] [--path model_path]
 --input input_path --output output_path
@@ -50,6 +52,12 @@ Input image
 --output output_path, -o output_path
 Output image
 Example:python predict.py -t person -i ./image.jpg -o output.png
+It may takes 3-4 seconds run on CPU.
+```
+Example:
+```Shell
+python predict.py -t person -i ./image.jpg -o output.png
+```
 It may takes 3-4 seconds run on CPU.
 
 ### Acknowledgement
