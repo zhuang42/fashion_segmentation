@@ -1,6 +1,7 @@
 ### CSC420 Project 3 Fashion Segmentation
 
 Zichun Zhuang
+
 Jinhao Huang
 
 ### Introduction
