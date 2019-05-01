@@ -1,5 +1,8 @@
 ### CSC420 Project 3 Fashion Segmentation
 
+Zichun Zhuang
+Jinhao Huang
+
 ### Introduction
 
 This is for Project 3 for the CSC420 class: http://www.cs.utoronto.ca/~fidler/teaching/2015/CSC420.html
