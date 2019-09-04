@@ -16,7 +16,7 @@ from utils.saver import Saver
 from utils.summaries import TensorboardSummary
 from utils.metrics import Evaluator
 
-from datasets import fashion
+from dataloaders.datasets import fashion
 
 from torch.utils.data import Dataset, DataLoader
 from torch import nn
@@ -406,7 +406,7 @@ if __name__ == "__main__":
         'momentum':0.9,
         'weight_decay':0,
         'nesterov':True,
-        'cuda':True,
+        'cuda':False,
         'lr_scheduler':'poly',
         'epochs':15,
         'eval_interval': 1,
